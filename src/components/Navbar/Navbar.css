@@ -1,0 +1,38 @@
+nav{
+    border-bottom: orange 5px solid;
+}
+.navbar .navbar-brand{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px ;
+}
+.navbar .navbar-brand span{
+    color:rgb(255, 98, 0);
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+}
+.navbar-nav .nav-item .nav-link.active{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 98, 0);
+    transition: 0.5s all ease; 
+}
+.navbar-nav .nav-item .nav-link:hover::after{
+    width: 100%;
+}
+nav form .form-control{
+    border-radius: 20px;
+    padding-inline: 35px;
+}

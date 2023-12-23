@@ -1,0 +1,25 @@
+div h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.category{
+    margin-top: 35px;
+}
+
+.category .list{
+    background-color: #F8923C;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 50px;
+    border-radius: 15px;
+    transition: 0.5s all ease;
+}
+
+.category .list:hover{
+    background-color: #F04E4E;
+    color: white;
+}
+
+
